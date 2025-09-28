@@ -1,0 +1,27 @@
+# Normalize all text files to LF (Linux style)
+* text=auto eol=lf
+
+# Source code files (always LF)
+*.cs      text eol=lf
+*.csproj  text eol=lf
+*.sln     text eol=lf
+*.cpp     text eol=lf
+*.hpp     text eol=lf
+*.c       text eol=lf
+*.h       text eol=lf
+*.sh      text eol=lf
+*.ps1     text eol=lf
+
+# Documentation files (always LF)
+*.md      text eol=lf
+*.txt     text eol=lf
+
+# Binary files (no conversion)
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.dll     binary
+*.exe     binary
+*.so      binary
+*.a       binary

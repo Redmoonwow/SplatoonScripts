@@ -1,0 +1,4 @@
+[submodule "Splatoon"]
+	path = Splatoon
+	url = https://github.com/PunishXIV/Splatoon
+	branch = main
